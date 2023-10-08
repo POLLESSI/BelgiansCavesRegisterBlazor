@@ -1,0 +1,20 @@
+﻿<h3>AddScientificData</h3>
+
+<EditForm Model="ScientificDataRegisterForm" OnSubmit="submit" class="form-control">
+    <div class="form-control-sm">
+        <label>DataType :</label>
+        <InputText @bind-Value="ScientificDataRegisterForm.DataType"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>DetailData :</label>
+        <InputText @bind-Value="ScientificDataRegisterForm.DetailData"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>ReferenceData :</label>
+        <InputText @bind-Value="ScientificDataRegisterForm.ReferenceData"></InputText>
+    </div>
+</EditForm>
+
+@code {
+
+}

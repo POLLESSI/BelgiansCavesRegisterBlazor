@@ -1,0 +1,16 @@
+﻿<h3>Add New Owner</h3>
+
+<EditForm Model="NOwnerRegisterForm" @OnSubmit="submit" class="form-control">
+    <div class="form-control-sm">
+        <label>Status : </label>
+        <InpotText @bind-value="NOwnerRegisterForm.Status"></InpotText>
+    </div>
+     <div class="form-control-sm">
+        <label>Agreement : </label>
+        <InpotText @bind-value="NOwnerRegisterForm.Agreement"></InpotText>
+    </div>
+</EditForm>
+
+@code {
+
+}

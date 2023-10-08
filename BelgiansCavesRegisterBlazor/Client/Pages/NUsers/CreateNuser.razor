@@ -1,0 +1,15 @@
+﻿<h3>Add New User</h3>
+
+<EditForm Model="NUserLoginForm" @OnSubmit="submit" class="form-control">
+    <div class="form-control-sm">
+        <label>Email :</label>
+        <InputText @bind-Value="NUserLoginForm.Email"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Password :</label>
+        <InputText @bind-Value="NUserLoginForm.Password"></InputText>
+    </div>
+</EditForm>
+@code {
+
+}

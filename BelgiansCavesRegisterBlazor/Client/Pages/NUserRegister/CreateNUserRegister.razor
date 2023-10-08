@@ -1,0 +1,23 @@
+﻿<h3>User Registration</h3>
+<EditForm Model="NUserRegisterForm" @OnSubmit="submit" class="form-control">
+    <div class="form-control-sm">
+        <label>Pseudo</label>
+        <InputNumber @bind-Value="NUserRegisterForm.Pseudo"></InputNumber>
+    </div>
+    <div class="form-control-sm">
+        <label>Email</label>
+        <InputNumber @bind-Value="NUserRegisterForm.Email"></InputNumber>
+    </div>
+    <div class="form-control-sm">
+        <label>Password</label>
+        <InputNumber @bind-Value="NUserRegisterForm.Password"></InputNumber>
+    </div>
+    <div class="form-control-sm">
+        <label>SecondPassword</label>
+        <InputNumber @bind-Value="NUserRegisterForm.SecondPassword"></InputNumber>
+    </div>
+</EditForm>
+
+@code {
+
+}

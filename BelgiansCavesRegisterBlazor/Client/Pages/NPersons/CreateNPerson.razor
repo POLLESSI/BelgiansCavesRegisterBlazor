@@ -1,0 +1,48 @@
+﻿<h3>Add New Person</h3>
+
+<EditForm Model="NPersonForm" OnSubmit="submit" class="form-control">
+    <div class="form-control-sm">
+        <label>Lastname :</label>
+        <InputText @bind-Value="NPersonForm.Lastname"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Firstname :</label>
+        <InputText @bind-Value="NPersonForm.Firstname"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>BirthDate :</label>
+        <InputText @bind-Value="NPersonForm.BirthDate"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Address_Street :</label>
+        <InputText @bind-Value="NPersonForm.Address_Street"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Address_Nbr :</label>
+        <InputText @bind-Value="NPersonForm.Address_Nbr"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>PostalCode :</label>
+        <InputText @bind-Value="NPersonForm.PostalCode"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Address_City :</label>
+        <InputText @bind-Value="NPersonForm.Address_City"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Address_Country :</label>
+        <InputText @bind-Value="NPersonForm.Address_Country"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Telephone :</label>
+        <InputText @bind-Value="NPersonForm.Telephone"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Gsm :</label>
+        <InputText @bind-Value="NPersonForm.Gsm"></InputText>
+    </div>
+</EditForm>
+
+@code {
+
+}

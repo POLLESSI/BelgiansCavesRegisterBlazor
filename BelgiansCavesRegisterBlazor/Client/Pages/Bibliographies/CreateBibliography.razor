@@ -1,0 +1,30 @@
+﻿<h3>Add Bibliography</h3>
+
+<EditForm Model="BibliographyRegisterForm" @OnSubmit="submit" class="form-con">
+    <div class="form-control-sm">
+        <label>Title</label>
+        <InputText @bind-Value="BibliographyRegisterForm.Title"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Author</label>
+        <InputText @bind-Value="BibliographyRegisterForm.Author"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>ISBN</label>
+        <InputText @bind-Value="BibliographyRegisterForm.ISBN"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>DataType</label>
+        <InputText @bind-Value="BibliographyRegisterForm.DataType"></InputText>
+    </div>
+    <div class="form-control-sm">
+        <label>Detail</label>
+        <InputText @bind-Value="BibliographyRegisterForm.Detail"></InputText>
+    </div>
+
+</EditForm>
+
+@code {
+
+}
+v 
